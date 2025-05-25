@@ -21,6 +21,12 @@
   display: flex;
   gap: 32px;
   list-style: circle;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
 }
 
 .header_nav_menu_no-bullit {
@@ -33,9 +39,9 @@
 
 .address {
   margin-right: 50px;
-  max-width: 240px;
+  width: 240px;
   justify-self: end;
-  font-family: 'Raleway';
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -110,7 +116,7 @@
 .cover__description {
   display: block;
   float: left;
-  font-family: "Raleway";
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -129,7 +135,7 @@
   bottom: 50px;
   background: transparent;
   color: white;
-  font-family: "Raleway";
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -143,7 +149,7 @@
 }
 
 .lots__heading {
-  font-family: "Raleway";
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -214,7 +220,7 @@
   padding-bottom: 48px;
   padding-left: 40px;
   padding-right: 40px;
-  font-family: "Raleway";
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -227,7 +233,7 @@
   display: block;
   margin-top: 30px;
   margin-left: 64px;
-  font-family: "Raleway";
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -279,7 +285,8 @@
 
 .about__text {
   padding-top: 8px;
-  font-family: "Raleway";
+  padding-right: 5px;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -307,10 +314,18 @@
 }
 
 .footer__links-list {
+  padding-right: 50px;
   display: block;
   gap: 32px;
   list-style: none;
   justify-items: center;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
 }
 
 .footer__social-list {
