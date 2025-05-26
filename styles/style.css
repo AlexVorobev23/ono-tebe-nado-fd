@@ -5,7 +5,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   background-color: white;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: normal;
   font-size: 18px;
   padding-top: 91px;
@@ -106,16 +106,15 @@
 }
 
 .description {
+  display: flex;
+  justify-content: space-between;
   margin-top: 106px;
   margin-left: 50px;
   margin-right: 50px;
   z-index: 1;
-  justify-content: space-between;
 }
 
 .cover__description {
-  display: block;
-  float: left;
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -127,8 +126,6 @@
 }
 
 .cover_button {
-  display: block;
-  float: right;
   width: 256px;
   height: 51px;
   right: 50px;
@@ -209,7 +206,7 @@
   padding-top: 48px;
   padding-left: 40px;
   padding-right: 40px;
-  font-family: "Raleway";
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -267,7 +264,7 @@
 
 .about__title {
   padding-bottom: 93px;
-  font-family: "Raleway";
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
